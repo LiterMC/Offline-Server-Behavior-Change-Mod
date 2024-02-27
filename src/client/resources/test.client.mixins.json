@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.test.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"mixins":[
+		"ExampleClientMixin"
+	],
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+
+}
